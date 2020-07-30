@@ -19,7 +19,7 @@ attr_accessor :song, :artist, :genre
   end 
     
   def self.genres 
-    @@genres 
+    @@genres.uniq! 
   end
  
 end 
