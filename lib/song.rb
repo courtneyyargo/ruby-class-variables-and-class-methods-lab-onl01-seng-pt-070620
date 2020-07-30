@@ -22,4 +22,8 @@ attr_accessor :name, :artist, :genre
     @@genres.uniq! 
   end
  
+  def self.artists
+    @@artists.uniq!
+  end 
+  
 end 
