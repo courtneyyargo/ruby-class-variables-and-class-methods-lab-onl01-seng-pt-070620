@@ -13,4 +13,11 @@ attr_accessor :song, :artist, :genre
     @@genres << genre 
     @@artists << artist
   end 
+  
+  def self.count
+    @@count
+    
+  def self.genres
+    @@genres.uniq! 
+  end 
 end 
